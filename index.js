@@ -1,5 +1,5 @@
 let firstCard = 10
-let secondCard = 10
+let secondCard = 11
 let sum = firstCard + secondCard
 let hasBlackJack = false
 
@@ -11,12 +11,5 @@ if (sum <= 20) {
 } else {
     console.log("You're out of the game! :-(")
 }
-age = 10
 
-if (age < 100) {
-    console.log("Not elegible!")
-} else if (age === 100) {
-    console.log("Here is your birthday card from the king!")
-} else {
-    console.log("Not elegible, you have already gotten one")
-}
+    console.log(hasBlackJack)
