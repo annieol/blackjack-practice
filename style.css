@@ -5,7 +5,6 @@ body {
     text-align: center;
     color: white;
     background-image: url(https://games.netent.com/wp-content/uploads/2018/09/blackjack_background.jpg);
-   
     background-repeat: no-repeat;
 
 }
@@ -17,4 +16,21 @@ h1 {
 
 #message-el {
     font-style:italic
+}
+
+#start-button {
+    color: #016f32;
+    width: 200px;
+    height: 1.5em;
+    background-color: goldenrod;
+    font-size: 22px;
+    font-weight: bold;
+    border:none;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+#start-button:hover {
+    color: #003a1a;
+    background-color: gold;
 }
