@@ -25,3 +25,8 @@ function startGame() {
     messageEl.textContent = message
 }
 
+function newCard() {
+    message = "Drawing out new card"
+    messageEl.textContent = message
+}
+
