@@ -35,3 +35,9 @@ h1 {
     color: #003a1a;
     background-color: gold;
 }
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
